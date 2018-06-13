@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <title>{{config('app.name') , 'LSAPP'}}</title>
 
     <!-- Styles -->
@@ -19,7 +19,9 @@
     @include('inc.navbar')
 
     <div class="container">
+
         @yield('content')
+
     </div>
 
 </body>
